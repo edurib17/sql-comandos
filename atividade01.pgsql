@@ -16,6 +16,6 @@ BEGIN
 	END IF;	  
 	END;
 $$ LANGUAGE plpgsql;
-/*  chamar função*/
-SELECT * FROM descontoProduto('FB',2)
+/*  chamar função
+SELECT * FROM descontoProduto('FB',2)*/
 	
