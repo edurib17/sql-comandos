@@ -1,3 +1,8 @@
+/*Em uma tabela audit_produtos registrar
+o id do produto, o usuário, quando a operação foi executada 
+(armazenar a informação de deleção, update e insert). 
+Criar a tabela audit_produtos no script. Usar uma TRIGGER para essa operação de registro de log.
+*/
 CREATE OR REPLACE FUNCTION audit_produtos()
 RETURNS TRIGGER 
 AS $$
