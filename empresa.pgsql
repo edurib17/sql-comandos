@@ -1,3 +1,4 @@
+/* Banco empresa para testar os codigos*/
 CREATE TABLE customers
 (
   cust_id      INT        NOT NULL,
