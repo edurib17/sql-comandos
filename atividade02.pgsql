@@ -12,6 +12,6 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-
+/*
 select contar_produtos_vendidos(1003)
-/* result = 7 */
+result = 7 */
